@@ -31,17 +31,17 @@ setup(
     keywords='bitcoin',
     python_requires='>=3.5.0,<3.8.0',
     install_requires=[
-        'requests==2.20.0',
-        'python-dateutil==2.7.0',
-        'click==7.0'
+        'requests>=2.20.0',
+        'python-dateutil>=2.7.0',
+        'click>=7.0'
     ],
     extras_require={
         'streaming': [
-            'timeout-decorator==0.4.1',
-            'google-cloud-pubsub==0.39.1'
+            'timeout-decorator>=0.4.1',
+            'google-cloud-pubsub>=0.39.1'
         ],
         'dev': [
-            'pytest~=4.3.0'
+            'pytest>=4.3.0'
         ],
     },
     entry_points={
